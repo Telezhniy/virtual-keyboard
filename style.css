@@ -1,0 +1,117 @@
+.container{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  text-align: center;
+}
+
+.text_area{
+  display: block;
+  resize: none;
+  width: 790px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #444444
+}
+
+.buttons{
+  width: 790px;   
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.button{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+}
+
+.button:hover{
+  background-color: pink;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0,3s;
+}
+
+.button:active{
+  border-radius: 100%;
+  background-color: rgb(21, 255, 0);
+  transition-property: background-color border-radius;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0,3s;
+}
+
+.bacspace_button{
+  width: 100px;
+  background-color: rgba(226, 223, 43, 0.719);
+}
+
+.tab_button{
+  width: 50px;
+  background-color: rgba(226, 223, 43, 0.719);
+}
+
+.caps_button{
+  width: 100px;
+  background-color: rgba(226, 223, 43, 0.719);
+}
+
+.enter_button{
+  width: 90px;
+  background-color: rgba(226, 223, 43, 0.719);
+}
+
+.shift_button{
+  width: 95px;
+  background-color: rgba(226, 223, 43, 0.719);
+}
+
+.space_button{
+  width: 350px;
+  background-color: rgba(226, 223, 43, 0.719);
+}
+
+.ctrl_button{
+  background-color: rgba(226, 223, 43, 0.719);
+}
+
+.alt_button{
+  background-color: rgba(226, 223, 43, 0.719);
+}
+
+.up_button{
+  background-image: url(./images/up.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.down_button{
+  background-image: url(./images/down.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left_button{
+  background-image: url(./images/left.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.right_button{
+  background-image: url(./images/right.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+    
